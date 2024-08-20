@@ -68,7 +68,7 @@ Some of the most popular Linux distributions for cyber security specialists (but
 |[Raspberry Pi OS](https://www.raspberrypi.com/software/)|[CentOS](https://www.centos.org/)|[BackBox](https://www.backbox.org/)|
 |[BlackArch](https://www.blackarch.org/)|[Pentoo](https://www.pentoo.ch/)|[Kali Linux](https://kali.org/)|
 
-## Intro to Shell
+## The Shell
 ### Definition
 A Linux terminal, also called a shell or command line, provides a text-based input/output (I/O) interface between users and the kernel for a computer system.
 
@@ -79,4 +79,34 @@ A Linux terminal, also called a shell or command line, provides a text-based inp
 - Zsh
 - Fish
 
-###
+### Prompt Description
+The bash prompt is easy to understand and, by default, includes information such as the user, hostname, and current working directory. It is a string of characters displayed on the terminal screen that indicates that the system is ready for our input. It typically includes information such as the current user, the computer’s hostname, and the current working directory. The prompt is usually displayed on a new line, and the cursor is positioned after the prompt, ready for the user to start typing a command.
+
+It can be customized to provide useful information to the user. The format can look something like this:
+```
+<username>@<hostname><current working directory>$
+```
+
+The home directory for a user is marked with a tilde <~> and is the default folder when we log in.
+
+```
+<username>@<hostname>[~]$
+```
+
+The dollar sign, in this case, stands for a user. As soon as we log in as root, the character changes to a hash <#> and looks like this:
+
+```
+root@htb[/htb]#
+```
+
+For example, when we upload and run a shell on the target system, we may not see the username, hostname, and current working directory. This may be due to the PS1 variable in the environment not being set correctly. In this case, we would see the following prompts:
+
+**Unprivileged - User Shell Prompt**
+```
+$
+```
+
+**Privileged - Root Shell Prompt**
+```
+#
+```
