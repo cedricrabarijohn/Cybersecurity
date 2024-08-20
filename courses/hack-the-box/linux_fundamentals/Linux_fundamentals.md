@@ -67,3 +67,16 @@ Some of the most popular Linux distributions for cyber security specialists (but
 |[ParrotOS](https://www.parrotsec.org/)|[Ubuntu](https://ubuntu.com/)|[Debian](https://www.debian.org/)|
 |[Raspberry Pi OS](https://www.raspberrypi.com/software/)|[CentOS](https://www.centos.org/)|[BackBox](https://www.backbox.org/)|
 |[BlackArch](https://www.blackarch.org/)|[Pentoo](https://www.pentoo.ch/)|[Kali Linux](https://kali.org/)|
+
+## Intro to Shell
+### Definition
+A Linux terminal, also called a shell or command line, provides a text-based input/output (I/O) interface between users and the kernel for a computer system.
+
+### Existing shells
+- Bash (Bourne-again SHELL)
+- Tcsh/Csh
+- Ksh
+- Zsh
+- Fish
+
+###
