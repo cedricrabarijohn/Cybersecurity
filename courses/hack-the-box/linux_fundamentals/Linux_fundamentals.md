@@ -1,5 +1,5 @@
 # Linux fundamentals
-## Philosphy
+## Philosophy
 Linux follows 5 core principles
 | Principle          | Description        |
 | :----------------- | :----------------- |
