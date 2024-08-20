@@ -110,3 +110,24 @@ $
 ```
 #
 ```
+
+### System Information
+List of necessary tools that will help us to get informations about the system, its processes, network configurations, users, directories, user settings, and the corresponding parameters.
+|Command|Description|
+|:--|:--|
+|whoami|Display current username|
+|id|Returns users identity|
+|hostname|Sets or prints the current host system's name|
+|uname|Prints basic information about the operating system name and system hardware|
+|pwd|Returns current working directoty|
+|ifconfig|Used to assign or to view an address to a network interface and/or configure network interface parameters|
+|ip|Used to show or manipulate routing, network devices, interfaces and tunnels|
+|netstat|Shows network status|
+|ss|An utility to investigate sockets|
+|ps|Shows process status|
+|who|Displays who is logged in|
+|env|Prints environnement or sets and executes command|
+|lsblk|Lists block devices|
+|lsusb|Lists USB devices|
+|lsof|Lists opened files|
+|lspci|List PCI devices|
